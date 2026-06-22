@@ -1,36 +1,32 @@
 {
   "name": "slim-select",
-  "description": "Slim vanilla javascript select dropdown",
-  "filename": "slimselect.min.js",
-  "homepage": "http://slimselectjs.com",
+  "npmName": "slim-select",
+  "npmFileMap": [
+    {
+      "basePath": "dist",
+      "files": [
+        "*.js",
+        "*.css"
+      ]
+    }
+  ],
+  "filename": "slimselect.js",
+  "description": "Advanced select dropdown",
+  "homepage": "https://slimselectjs.com",
+  "keywords": [
+    "select",
+    "dropdown",
+    "multiselect"
+  ],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/brianvoe/slim-select.git"
-  },
-  "keywords": [
-    "select",
-    "vanilla",
-    "dropdown",
-    "search"
-  ],
-  "autoupdate": {
-    "source": "npm",
-    "target": "slim-select",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "slimselect*"
-        ]
-      }
-    ]
+    "url": "https://github.com/brianvoe/slim-select.git"
   },
   "authors": [
     {
       "name": "Brian Voelker",
-      "email": "brian@webiswhatido.com",
-      "url": "http://webiswhatido.com"
+      "url": "https://github.com/brianvoe"
     }
   ]
 }
